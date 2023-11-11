@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #F8F8FA;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin-left: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.login-btn, .signup-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover, .signup-btn:hover {
+    background-color: #45a049;
+}
+
+/* We’re here to Increase your Productivity */
+.increase-productivity {
+    position: absolute;
+    width: 555px;
+    height: 270px;
+    left: 130px;
+    top: 210px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    color: #191A15;
+    /* Add more styling as needed */
+}
+.centered-text {
+    text-align: center;
+  }
+
+  .container {
+    width: 50%; /* You can adjust the width as needed */
+    margin: 0 auto; /* This centers the container horizontally */
+    
+    padding: 20px; /* Optional: Add padding for spacing */
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  /* Create a flex container for the row */
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Style for the button */
+  .button {
+    padding: 10px 20px;
+    background-color: #54BD95;
+    color: #fff;
+    border: none;
+    border-radius: 15px; /* Increased border-radius for a curved border */
+    font-size: 16px;
+    cursor: pointer;
+}
+.col-md-6 p::before {
+    content: '\2713'; /* Unicode character for checkmark */
+    color: #54BD95; /* Color of the checkmark */
+    margin-right: 10px; /* Adjust as needed for spacing */
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the overlay color and opacity as needed */
+}
+
+.overlay-image {
+    position: absolute;
+    z-index: 1; /* Ensure the image is on top of the overlay */
+}
+
+.overlay-image.top-left {
+    top: 0;
+    left: 0;
+}
+
+.overlay-image.top-right {
+    top: 0;
+    right: 0;
+}
+
+.overlay-image.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+.text-container {
+     
+    background-color: #fff; /* Background color for the text container */
+    
+    text-align: center; /* Center the text */
+}
+
+.billing-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .billing-options button {
+    margin-right: 20px;
+    background-color: #54BD95;
+    
+    
+  }
+  body {
+    background-color: #F8F9FA; /* Set the background color of the body */
+  }
+
+  .card-deck {
+    margin-top: 20px;
+  }
+  .custom-padding {
+    padding: 20px; /* Adjust the value as needed */
+}
+.custom-background {
+    background-color: black;
+}
+/* Add your existing CSS rules here */
+
+body {
+    background-color: #F8F9FA;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .increase-productivity {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-md-6, .col-md-12 {
+        padding: 20px;
+    }
+
+    .billing-options {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .billing-options button {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .card-deck {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Additional responsive styling as needed */
+
+
+
+
+
